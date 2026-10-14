@@ -1,12 +1,12 @@
 {
-  "version": "0.9.18",
+  "version": "0.9.19",
   "description": "Local-first security control plane for AI coding agents",
   "homepage": "https://github.com/akasecurity/ai-tc",
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/akasecurity/ai-tc/releases/download/bin-v0.9.18/aka-0.9.18-win32-x64.zip",
-      "hash": "93b2487e4a97cd6b3771726b732f764e4f327867007ce5cd173ce923d4dfff4d",
+      "url": "https://github.com/akasecurity/ai-tc/releases/download/bin-v0.9.19/aka-0.9.19-win32-x64.zip",
+      "hash": "da81f897bc49e9ec0ba673b5103778035f898e5c2c1d7b45f21a75a3359fee4f",
       "extract_dir": "aka-win32-x64"
     }
   },
