@@ -1,4 +1,7 @@
-# AKA Security Scoop bucket
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/strip-dark.svg">
+  <img src="assets/strip-light.svg" alt="scoop-bucket by AKA Security: a Scoop bucket for AKA Security tools on Windows. A short slice of road with one truck labeled scoop." width="100%">
+</picture>
 
 [Scoop](https://scoop.sh) manifests for [AKA Security](https://akasecurity.io) tools on Windows.
 
