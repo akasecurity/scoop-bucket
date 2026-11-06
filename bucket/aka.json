@@ -1,20 +1,20 @@
 {
-  "version": "0.9.21",
+  "version": "0.9.24",
   "description": "Local-first security control plane for AI coding agents",
   "homepage": "https://github.com/akasecurity/ai-tc",
   "license": "Apache-2.0",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/akasecurity/ai-tc/releases/download/bin-v0.9.21/aka-0.9.21-win32-x64.zip",
-      "hash": "74e4998da74162ccc5789e95f15090b70859383ba25bc272fba29f3affcf37bc",
+      "url": "https://github.com/akasecurity/ai-tc/releases/download/bin-v0.9.24/aka-0.9.24-win32-x64.zip",
+      "hash": "29b6621d5509f2e13089cab3c108a8f08db02929dc1683d9e599f58d1317299e",
       "extract_dir": "aka-win32-x64"
     }
   },
   "bin": "aka.exe",
   "notes": "Run `aka init` to create the local store under %USERPROFILE%\\.aka.",
   "checkver": {
-    "url": "https://github.com/akasecurity/ai-tc/releases/download/bin-latest/VERSION",
-    "regex": "^([\\d.]+)$"
+    "url": "https://raw.githubusercontent.com/akasecurity/ai-tc/bin-latest/cli/package.json",
+    "regex": "\"version\":\\s*\"([\\d.]+)\""
   },
   "autoupdate": {
     "architecture": {
